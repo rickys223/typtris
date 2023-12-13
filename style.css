@@ -1,0 +1,121 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'LT Binary Neue', sans-serif;
+    font-family: 'LT Binary Neue Round', sans-serif;
+  
+  }
+  
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  #myCanvas {
+    border-radius: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: white;
+  
+    animation: fadeInAnimation 1s ease-in-out;
+  }
+  
+  button {
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+  
+  #start {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: blue;
+    color: yellow;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: none;
+    
+  }
+  
+  #start:hover {
+    background-color: yellow;
+    color: blue;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  #stop {
+    background-color: blue;
+    color: yellow;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: none;
+  }
+  
+  #stop:hover {
+    background-color: yellow;
+    color: blue;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  #reset {
+    background-color: blue;
+    color: yellow;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: none;
+  }
+  
+  #reset:hover {
+    background-color: yellow;
+    color: blue;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  #userInput {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px
+  }
+  
+  #endButtons {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  #start:disabled,
+  #stop:disabled,
+  #reset:disabled {
+    background-color: lightblue;
+    color: darkgray;
+  }
+  
+  #point {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 36px;
+    color: yellow;
+    font-weight: bold;
+    font-family: 'LT Binary Neue', sans-serif;
+    font-family: 'LT Binary Neue Round', sans-serif;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  }
+  
