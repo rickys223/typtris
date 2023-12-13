@@ -1,1 +1,1 @@
-# typtris-rs
+# typtris
